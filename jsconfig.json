@@ -1,0 +1,16 @@
+    {
+      "compilerOptions": {
+        "module": "ESNext",
+        "jsx": "react",
+        "checkJs": true,
+        "target": "ESNext",
+        "baseUrl": ".",
+        "paths": {
+          "*": ["src/*"]
+        }
+      },
+      "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+      ]
+    }
